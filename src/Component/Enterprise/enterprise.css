@@ -1,0 +1,137 @@
+.enterprise1 h1{
+    padding-top: 200px;
+    color: #1F2D5E;
+    font-size: 80px;
+    padding-left: 100px;
+}
+.enterprise1 h2{
+   
+    padding-left: 100px;
+}
+.enterprise1 button{
+    margin-left: 100px;
+    margin-top: 30px;
+    background-color: #f0eadb;
+}
+.enterprise1{
+    background-image: url("/public/Images/hero\ \(1\).png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: -152px;
+    height: 670px;
+}
+   /* ==========================Step2=============================== */
+   .enterprise2{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    padding-left: 100px;
+    margin-top: 200px;
+    background-image: url("/public/Images/HOME_2nd.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+   }
+   .enterprise2_1{
+    width: 500px;
+   }
+   .enterprise2_1 h1{
+    color: #00bad6;
+    font-size: 80px;
+   }
+   .enterprise2_1 p{
+    
+    font-size: 20px;
+   }
+   .button2{
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    font-family: "Roboto", Sans-serif;
+    font-weight: 500;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 43%;
+    font-size: 20px;
+    border: 2.3px solid #1F2D5E;
+    background-color: #fff;
+    color: #1F2D5E;
+    padding: 10px 16px;
+    position: relative;
+        text-decoration: none;
+    -webkit-transition-property: color;
+    transition-property: color;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+  }
+  .button2:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #1F2D5E;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transform-origin: 0 50%;
+    transform-origin: 0 50%;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+  }
+  .button2:hover{
+        color: #00BAD6 !important; 
+        text-decoration: none;
+  }
+  .button2:hover:before{
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+  }
+    /* ==========================Step3=============================== */
+    .enterprise3{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding-left: 100px;
+        margin-top: 50px;
+    }
+    .enterprise3_1{
+        width: 500px;
+    }
+    .enterprise3_1 img{
+        width: 400px;
+        margin-left: 60px;
+        height: 380px;
+    }
+    .enterprise3_1 h1{
+        font-size: 50px;
+        font-weight: 700;
+        color: #1F2D5E;
+    }
+    /* .enterprise3_1 h2{
+        font-size: 30px;
+        color: #00bad6;
+    } */
+    .enterprise3_1 p{
+        font-size: 25px;
+        color: #767778;
+    }
+    /* ==========================Step4 Slider=============================== */
+    /* ==========================Step5=============================== */
+    .enterprise5 h1{
+        font-size: 50px;
+        margin-left:100px;
+        font-weight: 700;
+        color: #1F2D5E;
+    }
+    .enterprise5 h2{
+        font-size: 30px;
+        margin-left:100px;
+        font-weight: 700;
+    }
+    .enterprise5_1 button{
+        margin-left: 100px;
+    }

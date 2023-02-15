@@ -1,0 +1,55 @@
+.blogs1 h1{
+    padding-top: 50px;
+    color: #1F2D5E;
+    font-size: 100px;
+    font-weight: bold;
+    padding-left: 100px;
+}
+hr{
+    border: 5px solid #00BAD6;
+    background-color: #00BAD6;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+/* ================Step2================== */
+.blogs2{
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+    margin-bottom: 20px;
+    gap: 65px;
+}
+.blogs2_1 {
+    width: 340px;
+    height: 440px;
+    background-color: #E5F7FF;
+}
+.blogs2_1 h1{
+    font-size: 25px;
+    padding: 10px 10px;
+    cursor: pointer;
+}
+.blogs2_1 h1:hover{
+    color: #00BAD6;
+    font-size: 25.5px;
+}
+.blogs2_1 p{
+    font-size: 16px;
+    margin-top: -10px;
+    padding: 20px 20px;
+}
+.blogs2_1 h5{
+    font-size: 16px;
+    padding: 20px 20px;
+}
+.blogs2_1 h4{
+    font-size: 20px;
+    cursor: pointer;
+    color: rgb(117, 117, 115);
+    padding: 20px 20px;
+}
+.blogs2_1 h4:hover{
+    font-size: 20px;
+    text-decoration: underline;
+}
+/* ================Step3================== */

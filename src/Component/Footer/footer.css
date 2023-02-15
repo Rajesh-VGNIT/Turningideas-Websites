@@ -1,0 +1,76 @@
+	/* Footer CSS */
+    #footer{
+        font-family: "Roboto", Sans-serif;
+        background-color:#1F2D5E; 
+        font-weight: 300;
+        color:white;
+        font-size: 16px;
+    }
+    .footer_link{
+        text-decoration: none;
+    }
+    .footer_link:hover{
+        text-decoration: underline;
+    }
+    #footer h5, .footer_link, .footer_link:hover{
+        font-size: 22px;
+        font-weight: 500;
+        color:#00BAD6;
+    }
+    #footer #book_now{
+        font-weight: 500;
+        font-size: 28px;
+        color:#00BAD6;
+        text-decoration: none;
+    }
+    #footer #book_now:hover:after {
+        content: '';
+        height: 3px;
+        background: #00BAD6; 
+        display: block;
+        margin: 0px auto;
+        width: 50%;
+    }
+    .contact_links,.contact_links:hover{
+        font-family: "Roboto", Sans-serif;
+        font-weight: 300;
+        color:white;
+        font-size: 16px;
+        text-decoration: none;
+    }
+    .contact_links:hover{
+        text-decoration: underline;
+    }
+    
+    .copyright_text{
+        font-family: "Roboto", Sans-serif;
+        font-weight: 300;
+        color:white;
+        font-size: 13px;	
+    }
+    p{margin-bottom: 0px;}
+/* End */
+
+.social_icons{
+    position: fixed;
+    bottom: 0.5%;
+    width: 50px;
+    height: 210px;
+    color: #fff;
+    /*transform: translateY(50%);*/
+    right: 0%;
+    z-index: 1;
+    background-color: #00BAD6;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+}
+.social_icon{
+    font-size: 25px;
+    color: white;
+}
+.social_icon:hover{
+    color: #333;
+}
+@media only screen and (max-width: 992px){
+    .navbar{background-color: #AAD7F2 !important;}
+}
